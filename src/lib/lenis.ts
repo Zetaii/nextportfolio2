@@ -1,13 +1,12 @@
-// utils/lenis.js
 import Lenis from "lenis";
 
 export const initializeLenis = () => {
   const lenis = new Lenis({
-    duration: 1.2, // Adjust the duration as needed
-    easing: (t: any) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // Easing function
+    duration: 1.2,
+    easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
   });
 
-  function raf(time: any) {
+  function raf(time: number) {
     lenis.raf(time);
     requestAnimationFrame(raf);
   }

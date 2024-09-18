@@ -24,10 +24,6 @@ To run this project locally, follow the steps below:
   git clone https://github.com/Zetaii/nextportfolio2.git
   ```
 
-  ```bash
-  cd nextMotion
-  ```
-
 ### 2. Install Dependencies
 
 - Install the necessary dependencies using `pnpm`:
