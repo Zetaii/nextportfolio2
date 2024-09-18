@@ -23,11 +23,11 @@ export const timelineData: TimelineEntry[] = [
     imageUrl: "/images/creativemusic.png",
     description: `A different resume approach using FramerMotion to display some of my capabilities.`,
     tech: [
-      "TypeScript",
+      "JavaScript",
       "Next.js",
       "TailwindCSS",
       "shadcn/ui",
-      "tRPC",
+      "React",
       "Vercel",
     ],
     cards: {
@@ -55,13 +55,7 @@ export const timelineData: TimelineEntry[] = [
     ],
     imageUrl: "/images/MovieApp.jpg",
     description: `An open-source, opinionated portfolio template for creating a modern, reactive SPA portfolio.`,
-    tech: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "Aceternity UI",
-      "Framer Motion",
-    ],
+    tech: ["TypeScript", "Next.js", "TailwindCSS", "shadcn/ui", "Firebase"],
     cards: {
       a: {
         title: "Latest and Trending Movies",
@@ -83,14 +77,7 @@ export const timelineData: TimelineEntry[] = [
     ],
     videoUrl: "/images/motionvideo.mp4",
     description: `A cinematography portfolio built with Next.js and Sanity.io for fast page speeds and quick delivery of high quality assets.`,
-    tech: [
-      "TypeScript",
-      "Next.js",
-      "TailwindCSS",
-      "Framer Motion",
-      "tRPC",
-      "Sanity",
-    ],
+    tech: ["JavaScript", "Next.js", "TailwindCSS", "Framer Motion", "Vercel"],
     cards: {
       a: {
         title: "Modern Animation and Cinematography Portfolio",
